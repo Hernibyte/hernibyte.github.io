@@ -1,37 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link href="styles.css" rel="stylesheet">
-    <script src="script.js" defer></script>
+    <title>Gossa Hernan Curriculum Vitae</title>
+    
+    <meta name="description" content="Curriculum Vitae of Hernan Agustin Gossa, a Game Developer based in Buenos Aires, Argentina.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/jpg" href="/images/me-icon.jpg">
+    <link href="/styles/styles.css" rel="stylesheet">
 </head>
-<body>
-    <div class="calculator-grid">
-        <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
+
+<body class="main-body">
+    <header>
+        <div class="profile">
+            <div class="profile-info">
+                <h1>Hernan Agustin Gossa</h1>
+                <h2>Game Developer</h2>
+                <p class="location">Buenos Aires, Argentina</p>
+                <div>
+                    <a href="https://github.com/hernibyte" target="_blank" rel="noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/hernan-gossa/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="mailto:gossa.hernan@gmail.com">Email</a>
+                </div>
+            </div>
+    
+            <img class="profile-image" src="/images/me-icon.jpg" width="100">
         </div>
-        <button data-all-clear class="span-two">AC</button>
-        <button data-delete>DEL</button>
-        <button data-operation>/</button>
-        <button data-number>1</button>
-        <button data-number>2</button>
-        <button data-number>3</button>
-        <button data-operation>*</button>
-        <button data-number>4</button>
-        <button data-number>5</button>
-        <button data-number>6</button>
-        <button data-operation>+</button>
-        <button data-number>7</button>
-        <button data-number>8</button>
-        <button data-number>9</button>
-        <button data-operation>-</button>
-        <button data-number>.</button>
-        <button data-number>0</button>
-        <button data-equals class="span-two">=</button>
-    </div>
+    
+        <nav class="profile-navigation">
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <p class="description">
+            Gameplay programmer specialized in Unreal Engine 4 and 5, with experience developing gameplay
+            systems using Blueprint and C++. Focused on creating engaging mechanics, interactive systems, and
+            performance optimization. Seeking to join a development team where I can contribute solid technical
+            solutions while continuing to grow professionally in gameplay programming.
+        </p>
+    
+        <h2 id="experience">Experience</h2>
+        <section>
+            <article>
+                <header>
+                    <h3>Seven Leaf Clover Studio</h3>
+                </header>
+                <p>Generalist Developer</p>
+                <p>November 2023 - April 2026</p>
+                <ul>
+                    <li>Developed and maintained game features using Unreal Engine, C++ and Blueprints.</li>
+                    <li>Collaborated with artists and designers to implement game mechanics.</li>
+                    <li>Implemented gameplay mechanics using C++ and Blueprints</li>
+                    <li>Optimized game performance and fixed bugs.</li>
+                    <li>Implemented GameplayAbilitySystem.</li>
+                    <li>Implemented Steam SDK and SteamAPI</li>
+                </ul>
+            </article>
+        </section>
+    
+        <h2 id="projects">Projects</h2>
+        <section class="projects-section">
+            <article>
+                <header>
+                    <h3>Rebel Engine</h3>
+                </header>
+                <p>
+                    A published videogame from Seven Leaf Clover Studio, 
+                    developed in Unreal Engine 4, with C++ and Blueprints
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Conventillo</h3>
+                </header>
+                <p>
+                    A "history-rich" game from Seven Leaf Clover Studio, 
+                    created as a work-for-hire project and developed in Unreal Engine 5, 
+                    with C++ and Blueprints
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>OpTiGEn</h3>
+                </header>
+                <p>
+                    An open and tiny game engine written in C++
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>OpTiGL</h3>
+                </header>
+                <p>
+                    An open and tiny graphics library for C++
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>OpTiPhysx</h3>
+                </header>
+                <p>
+                    An open and tiny physics library for C++
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>TSLC</h3>
+                </header>
+                <p>
+                    A tiny scripting language with a syntax similar to simplified C++ design for my own game engine
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Foodmnesia</h3>
+                </header>
+                <p>
+                    A videogame created for Ludum Dare 51
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Test of Faith: Redemption</h3>
+                </header>
+                <p>
+                    A videogame created as a final course project
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Destroil</h3>
+                </header>
+                <p>
+                    A videogame created as a final-year project
+                </p>
+            </article>
+        </section>
+    
+        <h2 id="education">Education</h2>
+        <section>
+            <article>
+                <header>
+                    <h3>Higher technical degree in videogame development</h3>
+                </header>
+                <p>University Image Campus</p>
+                <p>2018 - 2021</p>
+            </article>
+        </section>
+    
+        <h2 id="skills">Technologies</h2>
+        <section class="skills-section">
+            <ul>
+                <li>C/C++</li>
+                <li>Unreal Engine 4</li>
+                <li>Unreal Engine 5</li>
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2 id="contact">Get In Touch</h2>
+        <p>Email: <a href="mailto:gossa.hernan@gmail.com">gossa.hernan@gmail.com</a></p>
+    </footer>
 </body>
+
 </html>
